@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="TestNG Demo" verbose="1" >
+    <test name="TestNG Annotation Test" >
+        
+        <groups>
+            <run>
+                <include name="S"/>
+<!--                <include name="R"/>-->
+                <exclude name="R"></exclude>
+            </run>
+        </groups>
+        
+        
+        <classes>
+            <class name="testng.groups.GroupsTest01" />
+            <class name="testng.groups.GroupsTest02"></class>
+            <class name="testng.groups.GroupsTest03"></class>
+            <class name="testng.groups.GroupsTest04"></class>
+        </classes>
+    </test>
+</suite>

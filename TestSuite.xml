@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="TestNG Demo" verbose="1" >
+    <test name="TestNG Annotation Test" >
+        <classes>
+            <class name="testng.annotations.TestNGAnnotationTest02" />
+            <class name="testng.annotations.TestNGAnnotationTest03"></class>
+            <class name="testng.annotations.TestNGAnnotationTest04"></class>
+            <class name="testng.annotations.TestNGAnnotationTest05"></class>
+        </classes>
+    </test>
+</suite>
